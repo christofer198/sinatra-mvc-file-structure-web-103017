@@ -1,5 +1,5 @@
 class Dog
-  
+
   @@all = []
   attr_accessor :name, :breed, :age
 
@@ -9,5 +9,5 @@ class Dog
     @age = age
     @@all << self
   end
-  
+
 end
